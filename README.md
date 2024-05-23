@@ -1,10 +1,15 @@
 # verilator-demo
 A simple template example of how to use Verilator
 
-To build and run on Ubuntu Linux:
+
+To install needed tools on Ubuntu Linux:
 ```bash
-sudo apt install verilator
-sudo apt install gtkwave
+sudo apt install verilator gtkwave
+```
+
+
+To build and run:
+```bash
 make
 gtkwave waveform.vcd &
 ```
